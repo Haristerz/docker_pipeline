@@ -1,4 +1,4 @@
-@library('docker-pipeline-test') _
+@Library('docker-pipeline-test') _
 pipeline{
     agent any
     // agent{
