@@ -1,4 +1,4 @@
-@library ('docker-pipeline-test')_
+@library('docker-pipeline-test') _
 pipeline{
     agent{
         label 'linux'
