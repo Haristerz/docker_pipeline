@@ -5,6 +5,7 @@ pipeline{
 }
     stages{
         stage('Build'){
+            agent{ label params.os }
               steps{
                    echo "Hey this is docker project"
               }
