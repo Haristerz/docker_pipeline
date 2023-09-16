@@ -14,6 +14,7 @@ pipeline{
             // }
               steps{
                     echo "Git-checkout"
+                     echo "Git-checkout"
                      checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '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', url: 'https://github.com/Haristerz/docker_pipeline.git']])       
               }
 
